@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 
 public class App {
 	public static void main(String[]args) {
-		String nomeParque = JOptionPane.showInputDialog("Quale o xesquedele do park?");
+		String nomeParque = JOptionPane.showInputDialog("Qual é o nome do parque?");
 		String estado = JOptionPane.showInputDialog("Em qula estado está localizado o parque ?");
 		String anoDeCriacao = JOptionPane.showInputDialog("Qual o ano no qual o parque foi criado ?");
 		
