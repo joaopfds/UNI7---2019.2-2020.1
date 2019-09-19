@@ -5,17 +5,17 @@ import javax.swing.JOptionPane;
 
 public class App {
 	public static void main(String[]args) {
-		String nomeParque = JOptionPane.showInputDialog("Qual È o nome do parque ?");
-		String estado = JOptionPane.showInputDialog("Em qula estado est· localizado o parque ?");
+		String nomeParque = JOptionPane.showInputDialog("Qual √© o nome do parque?");
+		String estado = JOptionPane.showInputDialog("Em qula estado est√° localizado o parque ?");
 		String anoDeCriacao = JOptionPane.showInputDialog("Qual o ano no qual o parque foi criado ?");
 		
 		JOptionPane.showMessageDialog(null, anoDeCriacao);
 		
 		//Parque veadeiros = new ParqueNacional("Parque Nacional dos Veadeiros","Goias","1961");
 		Parque veadeiros = new ParqueNacional(nomeParque,estado,anoDeCriacao);
-		AtracaoTuristica at1 = new AtracaoTuristica(JOptionPane.showInputDialog("Qual È o nome da atraÁao ?"));
-		AtracaoTuristica at2 = new AtracaoTuristica(JOptionPane.showInputDialog("Qual È o nome da atraÁao ?"));
-		AtracaoTuristica at3 = new AtracaoTuristica(JOptionPane.showInputDialog("Qual È o nome da atraÁao ?"));
+		AtracaoTuristica at1 = new AtracaoTuristica(JOptionPane.showInputDialog("Qual √© o nome da atra√ßao ?"));
+		AtracaoTuristica at2 = new AtracaoTuristica(JOptionPane.showInputDialog("Qual √© o nome da atra√ßao ?"));
+		AtracaoTuristica at3 = new AtracaoTuristica(JOptionPane.showInputDialog("Qual √© o nome da atra√ßao ?"));
 		
 		veadeiros.cadastrarAtracao(at1);
 		veadeiros.cadastrarAtracao(at2);
