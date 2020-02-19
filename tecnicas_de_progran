@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>O Programador Top</title>
+        <meta charset="utf-8"/>
+    </head>
+    <body background="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb
+                        -1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" 
+          text="brown">
+          
+        <h1>Formulário da Massa</h1>
+        <form action="http://jkorpela.fi/cgi-bin/echo.cgi" method="POST">
+            <p>
+                <label for="nome">Nome:</label>  
+                <input type="text" id="nome" name="nome"/>
+            </p>
+            <p>
+                <label for="email">E-mail:</label> 
+                <input type="email" id="email" name="email"/>
+            </p>
+            <p>
+                <label for="pcd">PCD ?</label>
+                <input type="checkbox" 
+                    name="pcd" 
+                    id="pcd">
+            </p>
+            <p>
+                <label>Disponibilidade:</label>
+                <label for="manha">Manhã</label>
+                <input type="checkbox" 
+                    name="manha" 
+                    id="disponibilidade">
+                <label for="tarde">Tarde:</label>
+                <input type="checkbox" 
+                    name="tarde" 
+                    id="disponibilidade">
+                <label for="noite">Noite</label>
+                <input type="checkbox" 
+                    name="noite" 
+                    id="disponibilidade">
+            </p>
+            <p>
+                <label for="bolsista">Bolsista</label>
+                <input type="radio" 
+                    name="status" 
+                    id="bolsista"
+                    value="bolsista"/>
+                
+                <label for="voluntario"> Voluntario</label>
+                <input type="radio" 
+                    name="status" 
+                    id="voluntario"
+                    value="voluntario">
+            </p>
+            <input type="submit" value="Enviar">
+            <select name="my_html_select_box" multiple="yes" size="3">
+
+                <option>vai </option>
+                <option>ñvai</option>
+                <option>na duvida</option>
+            
+            </select>
+
+        </form>
+        <audio preload="auto" style=" width:300px;">
+            <source src="https://soundcloud.com/arizonazervas/roxanne" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio><br />
+        <a href="http://scriptgenerator.net/really-simple-embed-audio-player-script/" title="Generate here your HTML5 audio player" style="text-align: right;display: block">HTML5 Audio Player</a>
+        <iframe  width="425" height="344" src="https://www.youtube.com/watch?v=OUWSenZv_yA" frameborder="0" allowfullscreen></iframe>
+
+    </body>
+</html>
